@@ -1,0 +1,17 @@
+    <div class="row justify-content-center" id="headLine">
+        <div class="col-md-12 head">
+            <div class="row justify-content-between">
+                <h3 class="col-md-10">Preise</h3>
+                <div class="col-md-2">
+                   <div class="notification-hint" id="hint-ball" data-toggle="modal" data-target=""></div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <% @prices.each do |fuel, price| %>
+        <div class="row justify-content-center price-table" id="price-<%=fuel%>-table">
+            <%= render partial: 'price_display', locals: { id: fuel, price: price }%>
+        </div>
+    <% end %>
+    <%= render partial: 'last_price_change' %>
+    

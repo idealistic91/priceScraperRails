@@ -1,0 +1,33 @@
+<div class="container">
+    <h1>Pricetracker</h1>
+</div>    
+<div class="container" id="mainWindow"> 
+            <div class="row justify-content-center">
+                <%= render partial: 'price_display', locals: {name: 'Diesel'}%>
+   
+            </div>  
+            <div class="row justify-content-center">
+                    <%= render partial: 'price_display', locals: {name: 'Super'} %>
+                    <div class="col-md-6">
+                        <div class="kraftstoff row">
+                            <div class="arrow">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <div id="superNEU" class="preise"></div>
+                        </div>
+                    </div>
+            </div>  
+            <div class="row justify-content-center">   
+                    <%= render partial: 'price_display', locals: {name: 'Super Plus'} %>
+                    <div class="col-md-6">
+                        <div class="kraftstoff row">
+                            <div class="arrow">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div> 
+                            <div id="superPlusNEU" class="preise"></div>
+                        </div>
+                    </div>    
+            </div>        
+</div> 
+    
+    

@@ -1,0 +1,93 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ /* body {
+    background-color: #494949;
+    color: white;
+} */
+
+body {
+    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+    background-size: 10px 10px, 10px 10px, 10px 5px;
+    background-position: 0px 0px, 5px 5px, 0px 0px;
+    color: white;
+  }
+.prices{
+
+    width:200px;
+    height:100px; 
+    background-color: Black;
+ 
+}
+
+
+.sevenSeg-segOn {
+    fill:#0061ff;
+}
+
+.sevenSeg-svg {
+    fill:#09101b;
+    
+}
+
+.arrow {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-right:70px;
+    width: 100px;
+}
+
+
+.kraftstoff {
+    height: 100px;
+    justify-content: center;
+}
+
+
+#mainWindow {
+    background-color: #353535;
+}
+#headLine, #footLine {
+    background-color: #212733;
+}
+
+.prices div:nth-of-type(4) svg {
+    height:40%;
+    width: 40%;
+    vertical-align: bottom;
+    display: inline-flex;
+    line-height: 1;
+}
+.recent {
+    width:100%; 
+}
+
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+}
+
+h4 {
+    background-color: black;
+    height:100px;
+}
+
+#footer {
+    background-color:#353535;
+    padding-bottom:10px;
+}
