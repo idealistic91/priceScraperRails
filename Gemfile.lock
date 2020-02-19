@@ -237,7 +237,7 @@ DEPENDENCIES
   jquery-rails (~> 4.3, >= 4.3.5)
   jquery-ui-rails
   nokogiri (~> 1.6, >= 1.6.6.2)
-  pg
+  pg (= 1.2.2)
   pry-rails
   puma (~> 3.11)
   rails (~> 5.2.3)
