@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6ad7dd4-5ec8-42ab-a047-6edd792742ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-    </list>
+    <list default="true" id="b6ad7dd4-5ec8-42ab-a047-6edd792742ea" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -35,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -58,14 +53,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="128" />
-    <option name="y" value="250" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="198" />
+    <option name="y" value="91" />
     <option name="width" value="1920" />
     <option name="height" value="989" />
   </component>
@@ -215,16 +210,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582109302466</updated>
-      <workItem from="1582109303813" duration="1684000" />
+      <workItem from="1582109303813" duration="2090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1684000" />
+    <option name="totallyTimeSpent" value="2090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="989" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
@@ -269,7 +263,7 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
